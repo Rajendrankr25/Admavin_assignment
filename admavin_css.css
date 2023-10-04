@@ -4,10 +4,6 @@ body {
     margin: 0;
 }
 
-/* Page 1 CSS */
-
-/* Page 2 CSS */
-
 .p1_section1,
 .p2_section1 {
     background-color: rgb(232, 234, 237);
@@ -23,6 +19,22 @@ body {
 .p1_section3,
 .p1_section4 {
     padding: 5% 15% 10% 15%;
+}
+
+.p1_section4 {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.p1_section5 {
+    background-color: rgb(232, 234, 237);
+    padding: 6% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
 }
 
 .p1_section1_body,
@@ -120,6 +132,7 @@ body {
 .p1_section1_bodyhead,
 .p1_section2_bodyhead,
 .p1_section3_bodyhead,
+.p1_section5_bodyhead,
 .p2_section2_head {
     font-size: 30px;
     font-weight: bold;
@@ -161,4 +174,17 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 15px;
+}
+
+.p1_section4_body2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.p1_section6 {
+    background-color: rgb(74, 76, 78);
+    color: white;
+    padding: 1.5% 15%;
+    text-align: center;
 }
